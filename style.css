@@ -1,0 +1,74 @@
+body{
+    font-family: sans-serif;
+    --color: rgb(0, 191, 255);
+    --color2: lightblue;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5vh;
+    background-color: rgb(43, 44, 53);
+}
+
+button{
+    background-color: var(--color);
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 18px;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+h1{
+    color: var(--color);
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+p{
+    color: white;
+    font-weight: bold;
+}
+
+input{
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+
+}
+
+#timeContainer{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    
+
+}
+
+#timeDisplay{
+    color: var(--color);
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;    
+
+}
+
+#buttonContainer{
+    margin-top: 20px;
+}
+
+#stopButton:hover{
+    background-color: var(--color2);
+}
+
+#pauseButton:hover{
+    background-color: var(--color2);
+}
+
+#startButton:hover{
+    background-color: var(--color2);
+}
